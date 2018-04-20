@@ -42,9 +42,9 @@ class MtHamlExtension extends Extension
         $this->loadAsseticConfig($configs, $container, $loader);
         $this->loadJmsTranslationConfig($configs, $container, $loader);
 
-        $this->addClassesToCompile(array(
-            'MtHaml\Environment',
-        ));
+//         $this->addClassesToCompile(array(
+//             'MtHaml\Environment',
+//         ));
     }
 
     protected function loadAsseticConfig(array $configs, ContainerBuilder $container, XmlFileLoader $loader)
